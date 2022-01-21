@@ -7,7 +7,7 @@ module.exports = [
         category:"Income",
     },
     {
-        itemName: "taxes",
+        itemName: "Taxes",
         amount: -300.00,
         date: "January 1",
         from: "Goverment",
