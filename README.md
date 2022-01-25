@@ -5,7 +5,7 @@ https://github.com/Rcharles87/budgeting-app-be
 https://github.com/Rcharles87/budget-app-fe
 
 ## Deployed Backend Link
-https://rc-be-bookmark.herokuapp.com/
+https://rc-budget-app-be.herokuapp.com/
 
 ## Deployed Frontend Link
 https://vigorous-ramanujan-edd518.netlify.app
