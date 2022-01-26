@@ -24,7 +24,7 @@ transactionRoutes.post("/", (req,res)=>{
 transactionRoutes.delete("/:index", (req,res)=>{
     const { index } = req.params
     if(transactionsArr[index]){
-        const deleteTransaction = transactionsArr.splice(index,1)
+        let deleteTransaction = transactionsArr.splice(index,1)
         res.json(transactionsArr);
     }else{
         res.status(404).json({error: "Not Found"})
