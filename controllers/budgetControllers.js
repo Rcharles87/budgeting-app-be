@@ -15,7 +15,7 @@ transactionRoutes.get("/:index", (req,res)=>{
         res.status(404).json({error: "Not Found"})
     }
 });
-
+// 
 transactionRoutes.post("/", (req,res)=>{
    transactionsArr.push(req.body);
    res.json(transactionsArr[transactionsArr.length-1]);
